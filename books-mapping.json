@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "books": {
+      "properties": {
+        "name": {
+          "type": "keyword"
+        },
+        "author": {
+          "type": "keyword"
+        },
+        "body_text": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}
